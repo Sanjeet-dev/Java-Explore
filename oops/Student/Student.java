@@ -1,3 +1,6 @@
+/*Design a class Student with attributes like name, roll number, 
+and marks in different subjects. Write methods to calculate total 
+marks, average score, and determine academic grade. */
 class Student{
     String name;
     int rollNo;

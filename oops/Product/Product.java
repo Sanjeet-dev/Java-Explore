@@ -1,3 +1,7 @@
+/*Create a class Product with properties like name,price,and quantity
+ * Implement methods to display product information, 
+ * calculate total cost for a given quantity, and check if the product is in stock.
+ */
 class Product{
 	String name;
 	int price;
