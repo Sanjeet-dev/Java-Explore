@@ -4,7 +4,7 @@ package Arrays;
 
 class Product{
     public static void main(String[] args){
-        int[] arr = {1,2,3,4,5};
+        int[] arr = {0,1,2};
         int size = arr.length;
         productWithoutSelf(arr,size);
         
