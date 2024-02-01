@@ -1,3 +1,11 @@
+/*
+******
+**--**
+*----*
+*----*
+**--**
+******
+ */
 import java.util.Scanner;
 class Symmetry{
     public static void main(String[] args){
