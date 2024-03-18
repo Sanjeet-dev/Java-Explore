@@ -21,14 +21,21 @@ class Largest{
 
         // find the largest element
         int max = input[0];
-        for(int j=0; j<input.length; j++){
-            if(input[j]>max){
+        int smax = Integer.MIN_VALUE;
+        for(int j=1; j<input.length; j++){
+            if(input[j]>max && smax<max){
+                smax=max;
                 max=input[j];
+                
 
+            }
+            else if(input[j]>smax){
+                smax=input[j];
             }
 
         }
         System.out.println("The largest element in an array is "+ max);
+        System.out.print("The second largest element in an array is: "+smax);
         sc.close();
     }
 }
