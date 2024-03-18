@@ -21,8 +21,8 @@ class RemoveDuplicates{
         int i = 0;
         for(int j=1; j<replica.length; j++){
             if(replica[i] != replica[j]){
+                replica[i+1]=replica[j];
                 i++;
-                replica[i]=replica[j];
                 
             }
         }
